@@ -1,8 +1,9 @@
 import os
 
-# uncomment the 2 lines below for loading keys from .env file
+# store keys in environemtn file '.env'
 from dotenv import load_dotenv
 load_dotenv()
+postgres_local_base = os.getenv['DATABASE_URL']
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
