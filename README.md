@@ -26,3 +26,4 @@ Part 2.
   1. initialize db migrations with: `python manage.py db init`
   2. generate new migration `python manage.py db migrate --message 'initial database migration'`
   3. write migration `python manage.py db upgrade`
+  4. Verify all tests passing `python manage.py test`
