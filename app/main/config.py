@@ -3,13 +3,13 @@ import os
 # store keys in environemtn file '.env'
 from dotenv import load_dotenv
 load_dotenv()
-postgres_local_base = os.getenv['DATABASE_URL']
+postgres_local_base = os.getenv('DATABASE_URL')
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class Config:
-    SECRET_KEY = os.getenv('SECRET_KEY', 'my_precious_secret_key')
+    SECRET_KEY = os.getenv('SECRET_KEY')
     DEBUG = False
 
 
