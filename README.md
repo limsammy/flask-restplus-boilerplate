@@ -17,3 +17,4 @@ Setup
   3. Install pip dependencies: `pip install -r requirements.txt`
   4. Update requirements: `pip freeze > requirements.txt`
   5. Setup database and configure (after creating) `.env` file with your DB keys `touch .env`
+  6. At this point you should be able to start the api with `python manage.py run`
