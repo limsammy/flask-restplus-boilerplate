@@ -16,3 +16,4 @@ Setup
   2. Activate environment: `source venv/bin/activate`
   3. Install pip dependencies: `pip install -r requirements.txt`
   4. Update requirements: `pip freeze > requirements.txt`
+  5. Setup database and configure (after creating) `.env` file with your DB keys `touch .env`
