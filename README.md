@@ -15,3 +15,4 @@ Setup
   1. Create new virtual env named venv: `virtualenv venv`
   2. Activate environment: `source venv/bin/activate`
   3. Install pip dependencies: `pip install -r requirements.txt`
+  4. Update requirements: `pip freeze > requirements.txt`
